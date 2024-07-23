@@ -17,7 +17,15 @@ function Index0306() {
 
         <div className="title">답</div>
         {/* TODO */}
-        <div>{}</div>
+        <div>
+          {userList.map((user) => {
+            return (
+              <div>
+                이름: {user.name} 나이: {user.age}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

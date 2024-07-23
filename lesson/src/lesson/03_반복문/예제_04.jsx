@@ -14,8 +14,10 @@ function Index0305() {
 
         <div className="title">답</div>
         {/* TODO */}
-        <div>{}</div>
-        <div>평균: {}</div>
+        <div>{gradeList.map((grade) => {
+          gradeSum += grade;
+        })}</div>
+        <div>평균: {gradeSum / gradeList.length}</div>
       </div>
     </div>
   );

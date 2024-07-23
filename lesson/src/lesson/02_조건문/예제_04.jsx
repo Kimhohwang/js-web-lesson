@@ -6,6 +6,8 @@ function Index0205() {
   let loginResult = false;
   // TODO
 
+  loginResult = id === "okid" && pwd === "okpwd" ? true : false;
+
   return (
     <div>
       <div id="lesson-title">조건문 - 예제 4: 로그인</div>
@@ -13,7 +15,9 @@ function Index0205() {
         <div className="title">예제</div>
         <div>`id`, `pwd`를 입력 받아서 로그인 결과를 출력하시오.</div>
         <div>로그인이 성공했다면, `loginResult`가 true가 되도록,</div>
-        <div>그렇지 않다면, `loginResult`가 false가 되도록 조건문을 작성하시오, </div>
+        <div>
+          그렇지 않다면, `loginResult`가 false가 되도록 조건문을 작성하시오,{" "}
+        </div>
         <div>- 유효한 id: okid, 유효한 pwd: okpwd</div>
 
         <div className="title">답</div>

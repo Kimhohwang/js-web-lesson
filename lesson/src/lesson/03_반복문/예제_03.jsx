@@ -14,8 +14,12 @@ function Index0304() {
 
         <div className="title">답</div>
         {/* TODO */}
-        <div>{}</div>
-        <div>점수 합: {}</div>
+        <div>
+          {gradeList.map((grade) => {
+            gradeSum = gradeSum + grade;
+          })}
+        </div>
+        <div>점수 합: {gradeSum}</div>
       </div>
     </div>
   );

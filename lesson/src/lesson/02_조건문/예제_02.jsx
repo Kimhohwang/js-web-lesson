@@ -5,6 +5,8 @@ function Index0203() {
   let message = "";
   // TODO
 
+  message = password === "okok" ? "SUCCESS" : "FAIL";
+
   return (
     <div>
       <div id="lesson-title">조건문 - 예제 2: 금고 암호 검사</div>

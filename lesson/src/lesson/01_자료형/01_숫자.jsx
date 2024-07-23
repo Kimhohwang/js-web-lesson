@@ -4,6 +4,7 @@ function Index0101() {
   const a = 3;
   const b = 10;
   const c = 1.5;
+  const d = "Hello world";
 
   return (
     <div>
@@ -22,6 +23,8 @@ function Index0101() {
         <div>b / a = {b / a} </div>
         <div>b % a = {b % a} (나머지 연산)</div>
       </div>
+
+      <div>문자문자{d}</div>
     </div>
   );
 }

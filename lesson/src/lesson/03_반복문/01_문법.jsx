@@ -22,6 +22,7 @@ function Index0301() {
             return fruit;
           })}
         </div>
+        
         <div>
           rainbow:
           {rainbow.map((color) => {
