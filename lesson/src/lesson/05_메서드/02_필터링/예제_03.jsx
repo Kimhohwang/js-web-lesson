@@ -10,11 +10,7 @@ function Index0505() {
   ];
   // TODO
   function getAdultUser() {
-    database.map((user) => {
-      if (user.age >= 20) {
-        console.log(user);
-      }
-    });
+    database.filter((user) => user.age >= 20, {});
   }
 
   return (

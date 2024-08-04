@@ -8,6 +8,12 @@ function Index0001() {
 
   // TODO
 
+  cafeList.map((cafe) => {
+    if (cafe === cafeInput) {
+      searchResult = true;
+    }
+  })
+
   return (
     <div>
       <div id="lesson-title">문제 1: 우리 동네 카페 검색</div>

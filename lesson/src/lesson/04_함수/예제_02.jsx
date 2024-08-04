@@ -11,12 +11,13 @@ function Index0404() {
       <div id="lesson-content">
         <div className="title">예제</div>
         <div>
-          `축하받기` 버튼을 누르면 `congratulation()` 함수를 실행하도록 이벤트를 작성하시오.
+          `축하받기` 버튼을 누르면 `congratulation()` 함수를 실행하도록 이벤트를
+          작성하시오.
         </div>
 
         <div className="title">답</div>
         {/* TODO */}
-        <div className="link-button" onClick={() => {}}>
+        <div className="link-button" onClick={() => congratulation()}>
           축하받기
         </div>
       </div>

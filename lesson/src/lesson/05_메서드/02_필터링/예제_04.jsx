@@ -13,6 +13,10 @@ function Index0506() {
 
     // TODO
 
+    vipList = database
+      .filter((user) => user.amount >= 700)
+      .sort((a, b) => b.amount - a.amount);
+
     console.log(vipList);
   }
 

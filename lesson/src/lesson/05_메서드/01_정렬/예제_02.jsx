@@ -10,6 +10,14 @@ function Index0503() {
   ];
   // TODO
 
+  function dataSort() {
+    database.sort((a, b) => a.amount - b.amount);
+
+    database.map((user) => {
+      console.log(user.name);
+    });
+  }
+
   return (
     <div>
       <div id="lesson-title">정렬 - 예제 2: VIP 리스트업</div>
@@ -21,7 +29,7 @@ function Index0503() {
 
         <div className="title">답</div>
         {/* TODO */}
-        <div>{}</div>
+        <div onClick={() => dataSort()}>정렬하기</div>
       </div>
     </div>
   );
